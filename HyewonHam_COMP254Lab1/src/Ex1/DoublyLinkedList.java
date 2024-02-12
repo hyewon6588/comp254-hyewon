@@ -3,11 +3,8 @@ package Ex1;
 public class DoublyLinkedList<E> {
     private static class Node<E> {
         private E element;
-
         private Node<E> prev;
-
         private Node<E> next;
-
 
         public Node(E e, Node<E> p, Node<E> n) {
             element = e;
@@ -133,6 +130,7 @@ public class DoublyLinkedList<E> {
 
         System.out.println(listL);
         System.out.println(listL.first());
+
 
         DoublyLinkedList<Integer> listM = new DoublyLinkedList<Integer>();
 
